@@ -14,7 +14,7 @@ Ash can be processed into more useful items:
 
 These recipes can not be hand crafted. The recipe unlocked with Automation 3 may use productivity modules.
 
-Early on, ash can be processed into landfill, stone brick. Later ash can be seperated to recover some coal with a small chance of recovering some iron ore.
+A setting is provided to enable trees and enemies to drop ash as loot when they die from fire damage.
 
 ## But why?
 
