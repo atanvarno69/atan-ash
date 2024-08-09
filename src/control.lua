@@ -1,8 +1,9 @@
+-- Drop ash as loot on given surface, at given position
 local function drop_ash(surface_name, position, amount)
-    game.print("[item=atan-ash]", { game_state = false })
     game.surfaces[surface_name].spill_item_stack(position, { name = "atan-ash", count = amount }, true)
 end
 
+-- Determine if entity death is from fire and is an enemy or tree
 local function on_enity_died(event)
     if event.damage_type and event.damage_type.name == "fire" then
         local amount = 0
@@ -27,8 +28,9 @@ local function on_enity_died(event)
     end
 end
 
+-- Enable ash loot dropping if setting enabled, disable otherwise
 local function init()
-    if settings.startup["atan-ash-biters-burn"].value then
+    if settings.startup["atan-ash-entities-burn"].value then
         script.on_event(defines.events.on_entity_died, on_enity_died)
     else
         script.on_event(defines.events.on_entity_died, nil)

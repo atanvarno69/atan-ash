@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2024-08-09
+  Changes:
+    - Restructure internals. Data additions retained in data.lua, data updates moved to data-updates.lua.
+    - Update Ash seperation recipe icon.
+  Modding:
+    - Ash burnt product added to chemical fuels added by other mods in their data.lua stage.
+    - Burnt inventory slots added to burner entities added by other mods in their data.lua stage.
+  Bugfixes:
+    - Remove debugging chat notification on ash loot drop.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 2024-08-09
   Features:
