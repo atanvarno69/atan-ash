@@ -6,11 +6,12 @@ data:extend({
         energy_required = 0.5,
         enabled = false,
         ingredients = {
-            { "atan-ash", 100 },
-            { "stone", 10 },
+            { type = "item", name = "atan-ash", amount = 100 },
+            { type = "item", name = "stone", amount = 10 },
         },
-        result = "landfill",
-        result_count = 1,
+        results = {
+            { type = "item", name = "landfill", amount = 1 },
+        },
         icons = {
             {
                 icon = "__base__/graphics/icons/landfill.png",
@@ -32,10 +33,11 @@ data:extend({
         energy_required = 3.2,
         enabled = false,
         ingredients = {
-            { "atan-ash", 20 },
+            { type = "item", name = "atan-ash", amount = 20 },
         },
-        result = "stone-brick",
-        result_count = 1,
+        results = {
+            { type = "item", name = "stone-brick", amount = 1 },
+        },
         icons = {
             {
                 icon = "__base__/graphics/icons/stone-brick.png",
@@ -58,7 +60,7 @@ data:extend({
         energy_required = 1,
         enabled = false,
         ingredients = {
-            { "atan-ash", 10 },
+            { type = "item", name = "atan-ash", amount = 10 },
         },
         results = {
             { type = "item", name = "iron-ore", amount = 1, probability = 0.05 },
