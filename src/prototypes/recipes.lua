@@ -67,6 +67,7 @@ data:extend({
             { type = "item", name = "coal", amount = 1, probability = 0.5 },
         },
         main_product = "coal",
+        allow_productivity = true,
         icons = {
             {
                 icon = "__atan-ash__/graphics/icons/ash-1.png",
