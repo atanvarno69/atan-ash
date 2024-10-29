@@ -1,10 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2024-10-29
+  Balancing:
+    - Alter landfill from ash recipe to match vanilla Factorio 2.0.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.1
 Date: 2024-10-25
   Bugfixes:
     - Fix productivity module use for ash separation recipe.
   Compatibility:
-    - [Space Age] Add ash weight.
+    - [space-age] Add ash weight.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 2024-10-24

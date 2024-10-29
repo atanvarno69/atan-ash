@@ -8,7 +8,7 @@ Ash has a stack size of 100.
 
 Ash can be processed into more useful items:
 
-* Researching [Landfill](https://wiki.factorio.com/Landfill_(research)) unlocks assembling machine recipe: 0.5 s + 10 stone + 100 ash → 1 landfill
+* Researching [Landfill](https://wiki.factorio.com/Landfill_(research)) unlocks assembling machine recipe: 0.5 s + 25 stone + 250 ash → 1 landfill
 * Researching [Advanced material processing 2](https://wiki.factorio.com/Advanced_material_processing_2_(research)) unlocks electric furnace recipe: 3.2 s + 20 ash → 1 stone brick
 * Researching [Automation 3](https://wiki.factorio.com/Automation_3_(research)) unlocks assembling machine recipe: 1 s + 10 ash → (50% × 1 coal) + (5% × 1 iron ore)
 

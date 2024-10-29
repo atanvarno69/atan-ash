@@ -6,8 +6,8 @@ data:extend({
         energy_required = 0.5,
         enabled = false,
         ingredients = {
-            { type = "item", name = "atan-ash", amount = 100 },
-            { type = "item", name = "stone", amount = 10 },
+            { type = "item", name = "atan-ash", amount = 250 },
+            { type = "item", name = "stone", amount = 25 },
         },
         results = {
             { type = "item", name = "landfill", amount = 1 },
