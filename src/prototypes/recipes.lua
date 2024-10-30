@@ -3,6 +3,7 @@ data:extend({
         type = "recipe",
         name = "atan-landfill-from-ash",
         category = "advanced-crafting",
+        order = "c[landfill]-b",
         energy_required = 0.5,
         enabled = false,
         ingredients = {
@@ -12,24 +13,14 @@ data:extend({
         results = {
             { type = "item", name = "landfill", amount = 1 },
         },
-        icons = {
-            {
-                icon = "__base__/graphics/icons/landfill.png",
-                icon_size = 64,
-                icon_mipmaps = 4,
-            },
-            {
-                icon = "__atan-ash__/graphics/icons/ash-1.png",
-                icon_size = 64,
-                scale = 0.25,
-                shift = { -8, 8 },
-            },
-        },
+        icon = "__atan-ash__/graphics/icons/landfill-from-ash.png",
+        icon_size = 64,
     },
     {
         type = "recipe",
         name = "atan-stone-brick-from-ash",
         category = "atan-advanced-smelting",
+        order = "a[stone-brick]b",
         energy_required = 3.2,
         enabled = false,
         ingredients = {
@@ -38,25 +29,15 @@ data:extend({
         results = {
             { type = "item", name = "stone-brick", amount = 1 },
         },
-        icons = {
-            {
-                icon = "__base__/graphics/icons/stone-brick.png",
-                icon_size = 64,
-                icon_mipmaps = 4,
-            },
-            {
-                icon = "__atan-ash__/graphics/icons/ash-1.png",
-                icon_size = 64,
-                scale = 0.25,
-                shift = { -8, 8 },
-            },
-        },
+        icon = "__atan-ash__/graphics/icons/stone-brick-from-ash.png",
+        icon_size = 64,
     },
     {
         type = "recipe",
         name = "atan-ash-seperation",
         localised_name = { "recipe-name.atan-ash-seperation" },
         category = "advanced-crafting",
+        order = "k[ash]b",
         energy_required = 1,
         enabled = false,
         ingredients = {
@@ -68,25 +49,7 @@ data:extend({
         },
         main_product = "coal",
         allow_productivity = true,
-        icons = {
-            {
-                icon = "__atan-ash__/graphics/icons/ash-1.png",
-                icon_size = 64,
-            },
-            {
-                icon = "__base__/graphics/icons/coal.png",
-                icon_size = 64,
-                icon_mipmaps = 4,
-                scale = 0.25,
-                shift = { -8, 8 },
-            },
-            {
-                icon = "__base__/graphics/icons/iron-ore.png",
-                icon_size = 64,
-                icon_mipmaps = 4,
-                scale = 0.25,
-                shift = { 8, 8 },
-            },
-        },
+        icon = "__atan-ash__/graphics/icons/ash-seperation.png",
+        icon_size = 64,
     },
 })

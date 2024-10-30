@@ -5,7 +5,7 @@ data:extend({
         icon = "__atan-ash__/graphics/icons/ash-1.png",
         icon_size = 64,
         subgroup = "raw-resource",
-        order = "i[ash]",
+        order = "k[ash]a",
         stack_size = 100,
         weight = 1 * kg,
         pictures = {

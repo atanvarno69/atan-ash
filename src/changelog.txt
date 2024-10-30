@@ -1,8 +1,12 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.2
-Date: 2024-10-29
+Date: 2024-10-30
   Balancing:
     - Alter landfill from ash recipe to match vanilla Factorio 2.0.
+  Changes:
+    - Tweak item and recipe ordering to better fit in Factoriopedia with Space Age items and recipes.
+  Graphics:
+    - Improve recipe icons.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.1
 Date: 2024-10-25
