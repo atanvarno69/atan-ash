@@ -22,4 +22,4 @@ A setting is provided to enable trees and enemies to drop ash as loot when they 
 
 ## Credits
 
-Graphics from [Unused Renders](https://github.com/malcolmriley/unused-renders), released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
+Ash icons from [Unused Renders](https://github.com/malcolmriley/unused-renders), released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.

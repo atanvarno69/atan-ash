@@ -17,12 +17,12 @@ table.insert(data.raw["furnace"]["electric-furnace"].crafting_categories, "atan-
 --
 --    From base mod this updates: `boiler`, `steel-furnace`, `stone-furnace`, `burner-inserter`, `burner-mining-drill`,
 --    `burner-generator`, `car`, `tank`, `locomotive`
---    TODO: This should probably not alter `nuclear-reactor` since it has `fuel_category = "nuclear"`, not chemical?
 for category_id, category in pairs(data.raw) do
     for entity_id, entity in pairs(category) do
         if
             entity["energy_source"] ~= nil
             and entity.energy_source.type == "burner"
+            and entity.energy_source.fuel_categories
             and contains(entity.energy_source.fuel_categories, "chemical")
         then
             data.raw[category_id][entity_id]["energy_source"].burnt_inventory_size =

@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 2024-11-04
+  Bugfixes:
+    - Fix crash on startup when an entity is present with a burner energy source and no fuel categories.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.2
 Date: 2024-10-30
   Balancing:
