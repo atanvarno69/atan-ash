@@ -8,13 +8,20 @@ Ash has a stack size of 100.
 
 Ash can be processed into more useful items:
 
-* Researching [Landfill](https://wiki.factorio.com/Landfill_(research)) unlocks assembling machine recipe: 0.5 s + 25 stone + 250 ash → 1 landfill
+* Researching [Landfill](https://wiki.factorio.com/Landfill_(research)) unlocks assembling machine recipe: 0.5 s + 500 ash → 1 landfill
 * Researching [Advanced material processing 2](https://wiki.factorio.com/Advanced_material_processing_2_(research)) unlocks electric furnace recipe: 3.2 s + 20 ash → 1 stone brick
 * Researching [Automation 3](https://wiki.factorio.com/Automation_3_(research)) unlocks assembling machine recipe: 1 s + 10 ash → (50% × 1 coal) + (5% × 1 iron ore)
 
 These recipes can not be hand crafted. The recipe unlocked with Automation 3 may use productivity modules.
 
-A setting is provided to enable trees and enemies to drop ash as loot when they die from fire damage.
+A setting is provided to enable trees and biters to drop ash as loot when they die from fire damage.
+
+## Space Age support
+
+If you are playing with Space Age, these additional recipes are added:
+
+* Researching Biochamber unlocks biochamber recipe: 4 s + 20 ash + 50 water → 2 nutrients
+* Researching Foundation unlocks assembling machine recipe: 30 s + 4 tungsten plate + 4 lithium plate + 4 carbon fiber + 200 ash + 20 fluoroketone (cold) → 1 foundation
 
 ## But why?
 
