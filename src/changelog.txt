@@ -1,15 +1,18 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.0
-Date: 2024-11-05
+Date: 2024-11-12
   Major Features:
     - [space-age] Add foundation from ash recipe.
     - [space-age] Add nutrients from ash recipe.
   Changes:
     - Alter landfill from ash recipe to remove stone ingredient. Ash ingredient amount increased to 500.
+  Combat Balancing:
+    - Alter enemy ash drop drop rates.
+    - [space-age] Better support Gleba pentapod enemies.
   Graphics:
     - [space-age] Add foundation from ash icon.
     - [space-age] Add nutrients from ash icon.
-    - Improve ash seperation icon.
+    - Improve ash separation icon.
     - Improve landfill from ash icon.
     - Improve stone brick from ash icon.
 ---------------------------------------------------------------------------------------------------

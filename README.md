@@ -20,8 +20,8 @@ A setting is provided to enable trees and biters to drop ash as loot when they d
 
 If you are playing with Space Age, these additional recipes are added:
 
-* Researching Biochamber unlocks biochamber recipe: 4 s + 20 ash + 50 water → 2 nutrients
-* Researching Foundation unlocks assembling machine recipe: 30 s + 4 tungsten plate + 4 lithium plate + 4 carbon fiber + 200 ash + 20 fluoroketone (cold) → 1 foundation
+* Researching [Biochamber](https://wiki.factorio.com/Biochamber_(research)) unlocks biochamber recipe: 4 s + 20 ash + 50 water → 2 nutrients
+* Researching [Foundation](https://wiki.factorio.com/Foundation) unlocks assembling machine recipe: 30 s + 4 tungsten plate + 4 lithium plate + 4 carbon fiber + 200 ash + 20 fluoroketone (cold) → 1 foundation
 
 ## But why?
 
