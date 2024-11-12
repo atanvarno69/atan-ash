@@ -46,7 +46,11 @@ end
 
 -- Drop ash as loot on given surface, at given position
 local function drop_ash(surface_name, position, amount)
-    game.surfaces[surface_name].spill_item_stack(position, { name = "atan-ash", count = amount }, true)
+    game.surfaces[surface_name].spill_item_stack({
+        position = position,
+        stack = { name = "atan-ash", count = amount },
+        enable_looted = true,
+    })
 end
 
 -- Determine if entity death is from fire and is an enemy or tree
