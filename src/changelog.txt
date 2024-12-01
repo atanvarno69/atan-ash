@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.2
+Date: 2024-12-02
+  Bugfixes:
+    - [space-age] bioflux, jelly, jellynut, yumako and yumako mash produce ash when consumed as fuel.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.1
 Date: 2024-11-13
   Bugfixes:
