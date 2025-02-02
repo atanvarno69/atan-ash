@@ -1,3 +1,2 @@
-require("prototypes.items")
-require("prototypes.recipes")
-require("prototypes.recipe-categories")
+require("compatibility.base.data")
+require("compatibility.space-age.data")

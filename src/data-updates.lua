@@ -1,3 +1,2 @@
-require("updates.entities")
-require("updates.items")
-require("updates.technologies")
+require("compatibility.base.data-updates")
+require("compatibility.space-age.data-updates")
